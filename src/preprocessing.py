@@ -53,7 +53,6 @@ def normalize_text(text: str) -> str:
 
     # Replace punctuation/symbols with spaces.
     text = re.sub(r"[^a-z0-9]+", " ", text)
-
     # Normalize whitespace.
     text = re.sub(r"\s+", " ", text)
 
