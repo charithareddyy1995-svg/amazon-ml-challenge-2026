@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+
+# Data - DO NOT upload challenge dataset
+data/
+*.tsv
+*.csv
+*.zip
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Outputs
+output/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# VS Code
+.vscode/ss
